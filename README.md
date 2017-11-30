@@ -2,7 +2,8 @@
 
 ## A Ghost Tree for Fungal ITS using the most recent versions of the UNITE and SILVA databases
 
-'''# Ghost-Tree (https://github.com/JTFouquier/ghost-tree.git) is neat, becuase it allows us to use fungal ITS in 
+'''
+# Ghost-Tree (https://github.com/JTFouquier/ghost-tree.git) is neat, becuase it allows us to use fungal ITS in 
 # phylogenetic analyses (which is normally impossible since it's too variable). It accomplishes
 # this by making small ITS trees for clades where ITS actually can be aligned, then grafts them on to
 # a backbone tree, which is the SILVA 18S tree. Unfortunately, the latest version of Ghost-Tree available
