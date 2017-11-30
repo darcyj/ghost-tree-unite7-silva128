@@ -1,8 +1,8 @@
-## ghost-tree-unite7-silva128
-'
-# A Ghost Tree for Fungal ITS using the most recent versions of the UNITE and SILVA databases
+# ghost-tree-unite7-silva128
 
-# Ghost-Tree (https://github.com/JTFouquier/ghost-tree.git) is neat, becuase it allows us to use fungal ITS in 
+## A Ghost Tree for Fungal ITS using the most recent versions of the UNITE and SILVA databases
+
+'''# Ghost-Tree (https://github.com/JTFouquier/ghost-tree.git) is neat, becuase it allows us to use fungal ITS in 
 # phylogenetic analyses (which is normally impossible since it's too variable). It accomplishes
 # this by making small ITS trees for clades where ITS actually can be aligned, then grafts them on to
 # a backbone tree, which is the SILVA 18S tree. Unfortunately, the latest version of Ghost-Tree available
@@ -71,4 +71,4 @@
   ITS_tax_gt="unite_gt_filtered/sh_taxonomy_ghosttree_ver7_97_s_10.10.2017.txt"
   ./filter_unite_tax_using_ghosttree.r --tree ghost-tree-output/ghost_tree.nwk --tax $ITS_tax -o $ITS_tax_gt
   filter_fasta.py -f $ITS_seqs -s $ITS_tax_gt -o $ITS_seqs_gt
-'
+'''
