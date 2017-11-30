@@ -59,6 +59,8 @@
   time ghost-tree extensions group-extensions $ITS_seqs 0.8 $ITS_otu_map_80
 
 # Ghosttree calls "fasttree" instead of "FastTree". A link fixes this.
+  # You may need to change this - you can find where your FastTree is with
+  # which FastTree
   ln -s ~/.local/bin/FastTree fasttree
   chmod +x fasttree
   export PATH=$PATH:~/Desktop/ghost-tree
